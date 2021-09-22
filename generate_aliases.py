@@ -37,7 +37,7 @@ def main():
         ('lo', 'logs -f', None, None),
         ('lop', 'logs -f -p', None, None),
         ('p', 'proxy', None, ['sys']),
-        ('pf', 'port-forward', None, ['sys']),
+        ('pf', 'port-forward --address 0.0.0.0', None, ['sys']),
         ('g', 'get', None, None),
         ('d', 'describe', None, None),
         ('rm', 'delete', None, None),
